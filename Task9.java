@@ -5,8 +5,7 @@ public class Task9 {
     }
     public static void findVowels(String str) {
         String vowels = "aeiou";
-        String lowCaseStr = str.toLowerCase();
-        char[] strArr = lowCaseStr.toCharArray();
+        char[] strArr = str.toLowerCase().toCharArray();
         String foundVowels = "";
         for (char letter : strArr) {
             if (vowels.indexOf(letter) != -1 && foundVowels.indexOf(letter) == -1) {
