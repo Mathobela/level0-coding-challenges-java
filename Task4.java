@@ -4,10 +4,10 @@ public class Task4 {
     }
     public static void evenOrOdd(int number) {
         if(number % 2 == 0) {
-            System.out.println("even");
+            System.out.print("even");
         }
         else {
-            System.out.println("odd");
+            System.out.print("odd");
         }
     }
 }
